@@ -1,0 +1,5 @@
+- Add internal link
+	- `Ctrl + ALT + K`
+- Open another vault
+	- `Ctrl + Shift + P`
+- 
