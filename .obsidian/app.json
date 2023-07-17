@@ -1,0 +1,11 @@
+{
+  "livePreview": false,
+  "readableLineLength": false,
+  "showLineNumber": true,
+  "attachmentFolderPath": "Files",
+  "promptDelete": false,
+  "trashOption": "none",
+  "newFileLocation": "current",
+  "tabSize": 4,
+  "showFrontmatter": true
+}
