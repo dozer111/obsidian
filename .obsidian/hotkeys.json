@@ -7,5 +7,14 @@
       ],
       "key": "K"
     }
+  ],
+  "app:open-vault": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
   ]
 }
