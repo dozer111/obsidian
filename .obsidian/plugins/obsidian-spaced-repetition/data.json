@@ -5,7 +5,7 @@
     "flashcardHardText": "Hard",
     "flashcardTags": [
       "#Linux",
-      "#Linux2"
+      "#GO"
     ],
     "convertFoldersToDecks": false,
     "cardCommentOnSameLine": true,
@@ -39,7 +39,7 @@
     "maxLinkFactor": 1,
     "showDebugMessages": false
   },
-  "buryDate": "2023-07-16",
+  "buryDate": "2023-07-20",
   "buryList": [],
   "historyDeck": ""
 }
