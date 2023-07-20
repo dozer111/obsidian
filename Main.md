@@ -1,3 +1,3 @@
 ## Db
 
-- Postgres [[00 PG]]
+- Postgres [[000 PG]]
