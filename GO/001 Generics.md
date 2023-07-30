@@ -3,6 +3,8 @@
 
 допомагає уникнути дублювання кода за рахунок універсального параметра 
 
+приклад:
+**до**
 ```go
 package main  
   
@@ -12,14 +14,8 @@ import (
 )  
   
 func main() {  
-	// замість  
 	fmt.Println(MaxInt(2, 3))  
-	fmt.Println(MaxUint(2, 5))  
-	  
-	// маємо  
-	fmt.Println(Max(2, 3))  
-	fmt.Println(Max(2.0, 5.0))  
-	fmt.Println(Max("test1", "test2"))  
+	fmt.Println(MaxUint(2, 5))
 }  
   
 func MaxInt(x, y int) int {  
@@ -36,8 +32,26 @@ func MaxUint(x, y uint) uint {
 	}  
 	  
 	return y  
-}  
+}
+```
+
+
+**після**
+```go
+package main  
   
+import (  
+"fmt"  
+"golang.org/x/exp/constraints"  
+)  
+  
+func main() {  	  
+	// маємо  
+	fmt.Println(Max(2, 3))  
+	fmt.Println(Max(2.0, 5.0))  
+	fmt.Println(Max("test1", "test2"))  
+}  
+
 // go get golang.org/x/exp/constraints  
 func Max[T constraints.Ordered](x, y T) T {  
 	if x > y {  
@@ -47,7 +61,6 @@ func Max[T constraints.Ordered](x, y T) T {
 	return y  
 }
 ```
-
 
 
 сигнатура - `[<TypeName> <constraint>]`
