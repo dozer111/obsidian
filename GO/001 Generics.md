@@ -12,14 +12,23 @@ func MyPrintln[T any](val T) {
 }
 ```
 
+```go
+func Eq[T comparable](v1, v2 T) {  
+    fmt.Println(v1 == v2)  
+}
+```
+
 
 --- 
 Констрейнти можуть бути 3х видів:
 
 1. вбудовані в го (поки що тільки `comparable`)
-2. кастомні
-3. golang.org/x/exp/constraints
+2. [[custom generics]]
+3. golang.org/x/exp/constraints =Ю
 
+Ще приклади дженеріків:
+- 
+- 
 
 ---
 
@@ -87,6 +96,3 @@ func Max[T constraints.Ordered](x, y T) T {
 Класні відео:
 - https://youtu.be/PXsojiyWOXA
 
-Ще приклади дженеріків:
-- [[custom generics]]
-- [[golangorg constraints]]
