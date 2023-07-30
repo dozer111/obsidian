@@ -3,46 +3,6 @@
 
 допомагає уникнути дублювання кода за рахунок універсального параметра 
 
-сигнатура - `[<TypeName> <constraint>]`
-
-```go
-func MyPrintln[T any](val T) {
-	fmt.Println("my println")
-	fmt.Println(val)
-}
-```
-
-```go
-func Eq[T comparable](v1, v2 T) {  
-    fmt.Println(v1 == v2)  
-}
-```
-
-
---- 
-Констрейнти можуть бути 3х видів:
-
-1. вбудовані в го (поки що тільки `comparable`)
-2. [[custom generics]]
-3. golang.org/x/exp/constraints =Ю
-
-Ще приклади дженеріків:
-- 
-- 
-
----
-
-в допомогу дженерікам приїхали ще фічі:
-- новий токен `~` [[go generics ~]]
-- новий інтерфейс comparable (``==` та `!=`)
-
----
-
-
-
-
-
-
 ```go
 package main  
   
@@ -89,10 +49,42 @@ func Max[T constraints.Ordered](x, y T) T {
 ```
 
 
-Класні статті:
+
+сигнатура - `[<TypeName> <constraint>]`
+
+```go
+func MyPrintln[T any](val T) {
+	fmt.Println("my println")
+	fmt.Println(val)
+}
+```
+
+```go
+func Eq[T comparable](v1, v2 T) {  
+    fmt.Println(v1 == v2)  
+}
+```
+
+
+--- 
+Констрейнти можуть бути 3х видів:
+
+1. вбудовані в го (поки що тільки `comparable`)
+2. кастомні(власні) => [[custom generics]]
+3. golang.org/x/exp/constraints => [[golangorg constraints]]
+
+---
+
+в допомогу дженерікам приїхали ще фічі:
+- новий токен `~` [[go generics ~]]
+- новий інтерфейс comparable (``==` та `!=`)
+
+---
+
+## Класні статті:
 - https://benjiv.com/golang-generics-introduction/#type---comparable
 - https://pkg.go.dev/golang.org/x/exp/constraints#Integer
 
-Класні відео:
+## Класні відео:
 - https://youtu.be/PXsojiyWOXA
 
