@@ -1,6 +1,6 @@
 ---
 tags:
- <% tp.file.folder %>
+ <% tp.file.folder() %>
 ---
 
 Main => [[Main]]

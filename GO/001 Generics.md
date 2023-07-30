@@ -83,8 +83,8 @@ func Eq[T comparable](v1, v2 T) {
 Констрейнти можуть бути 3х видів:
 
 1. вбудовані в го (поки що тільки `comparable`)
-2. кастомні(власні) => [[custom generics]]
-3. golang.org/x/exp/constraints => [[golangorg constraints]]
+2. кастомні(власні) => [[go custom generics example]]
+3. golang.org/x/exp/constraints => [[go golangorg constraints]]
 
 ---
 
