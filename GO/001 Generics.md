@@ -5,6 +5,14 @@
 
 сигнатура - `[<TypeName> <constraint>]`
 
+```go
+func MyPrintln[T any](val T) {
+	fmt.Println("my println")
+	fmt.Println(val)
+}
+```
+
+
 --- 
 Констрейнти можуть бути 3х видів:
 
