@@ -1,3 +1,12 @@
+---
+tags:
+ DB
+ PostgreSQL
+---
+
+00 => [[000 PG]]
+
+
 ```sql
 -- EXPLAIN ANALYZE request
 

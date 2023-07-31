@@ -1,3 +1,11 @@
+---
+tags:
+ DB
+ PostgreSQL
+---
+
+00 => [[000 PG]]
+
 оригінальна стаття: https://www.tangramvision.com/blog/how-to-benchmark-postgresql-queries-well
 
 ---
@@ -44,6 +52,14 @@ END
 $$  
     LANGUAGE plpgsql;
 ```
+
+використовуємо функцію:
+```sql
+SELECT * FROM bench('SELECT columnName FROM mytableName WHERE c1=4 and c2 = ANY (array[3])');
+
+select * from bench('select count(*) from tblName');
+```
+
 
 видалити функцію:
 ```sql

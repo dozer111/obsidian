@@ -1,3 +1,11 @@
+---
+tags:
+ DB
+ PostgreSQL
+---
+
+00 => [[000 PG]]
+
 
 - Create => [[PG create index]]
 - Delete => [[PG drop index]]
