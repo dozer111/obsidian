@@ -12,6 +12,8 @@ DROP INDEX idxName;
 DROP INDEX IF EXISTS idxName;
 ```
 
+
+
 ```sql
-DROP INDEX IF EXISTS event_bus_handle_3;
+DROP INDEX IF EXISTS idx_brand_player_currency;
 ```
