@@ -56,3 +56,11 @@ QP3 => 5 операцій
                ->  Seq Scan on pg_namespace n  (cost=0.00..1.09 rows=4 width=68) (actual time=0.005..0.007 rows=4 loops=1)
                      Filter: ((nspname <> 'pg_catalog'::name) AND (nspname <> 'information_schema'::name))
 ```
+
+
+
+# Flashcards
+
+що таке "операція" в queryPlan
+?
+це дія(одна з дій), що виконується в 
