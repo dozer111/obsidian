@@ -2,7 +2,7 @@
 tags:
  DB
  PostgreSQL
- PostreSQL explain
+ explain
 ---
 
 00 => [[000 PG]]
