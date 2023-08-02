@@ -2,6 +2,7 @@
 tags:
  DB
  PostgreSQL
+ PostreSQL explain
 ---
 
 Main => [[Main]]
