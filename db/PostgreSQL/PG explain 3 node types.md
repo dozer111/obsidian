@@ -24,9 +24,34 @@ tags:
 
 # Flashcards
 
-які є типи
+які є типи операцій в query plan
+? 
+1. seq scan
+2. index scan
+3. index only scan
+4. bitmap index scan
 
+що такe `seq scan`
+? 
+це тип вибірки(операція), коли ми по-черзі проходимось по таблиці і її значенням, і таким чином перебираємо всю таблицю(або скільки треба) в пошуках даних
 
+що такe `index scan`
+?
+
+що такe `index only scan`
+?
+
+що такe `bitmap index scan`
+?
+
+що значить, коли у нас `index scan`
+?
+
+що значить, коли у нас `index only scan`
+?
+
+що краще: `index scan` чи `index only scan`
+?
 
 
 
