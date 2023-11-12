@@ -6,20 +6,20 @@ tags:
 Main => [[Main]]
 
 
-## to see which dependencies have newer versions available (аналог `composer outdated`)
+### show dependencies which have newer versions available (аналог `composer outdated`)
 
 
 ```bash
 go list -u -m all
 ```
 
-## update all dependencies(only on minor/patch)
+### update all dependencies(only on minor/patch)
 
 ```bash
 go get -u ./...
 ```
 
-## update all dependencies(only on major/minor/patch)
+### update all dependencies(only on major/minor/patch)
 
 ```bash
 go get -u=patch ./...
