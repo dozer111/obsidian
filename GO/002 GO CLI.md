@@ -1,10 +1,10 @@
 ---
 tags:
  GO
+ cli_commands
 ---
 
-Main => [[Main]]
-
+- [[go golangci-lint]]
 
 ### show dependencies which have newer versions available (аналог `composer outdated`)
 
