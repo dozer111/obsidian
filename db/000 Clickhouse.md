@@ -20,6 +20,7 @@ MAIN => [[Main]] <=
 - (Y) more secrets of ch query performance https://www.youtube.com/watch?v=1TGGCIr6dMY
 - байка про партиції і як їх використовувати https://medium.com/datadenys/using-partitions-in-clickhouse-3ea0decb89c4
 - як вибрати партиційний ключ https://kb.altinity.com/engines/mergetree-table-engine-family/pick-keys/
+- debugging memory issues https://clickhouse.com/docs/en/guides/developer/debugging-memory-issues
 
 
 #### projections
