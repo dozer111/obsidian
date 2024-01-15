@@ -40,6 +40,7 @@ SELECT * FROM myFirstReplacingMT FINAL;
 
 - дедуплікація відбувається на етапі мержів(а значить не відразу а у відносно довільний час)
 - дедуплікація відбувається в межах партиції. Якщо партиція часова - можуть бути дублі коли дані задублюються в кінець старої партиції і на початок нової
+	- https://kb.altinity.com/engines/mergetree-table-engine-family/replacingmergetree/altinity-kb-replacingmergetree-does-not-collapse-duplicates/
 
 
 ---
@@ -48,4 +49,5 @@ SELECT * FROM myFirstReplacingMT FINAL;
 ## Статті
 
 - clickhouse docs https://clickhouse.com/docs/en/engines/table-engines/mergetree-family/replacingmergetree
+- додатково почитати після ch доків: https://kb.altinity.com/engines/mergetree-table-engine-family/replacingmergetree/
 - 
