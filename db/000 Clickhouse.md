@@ -21,7 +21,7 @@ MAIN => [[Main]] <=
 - байка про партиції і як їх використовувати https://medium.com/datadenys/using-partitions-in-clickhouse-3ea0decb89c4
 - як вибрати партиційний ключ https://kb.altinity.com/engines/mergetree-table-engine-family/pick-keys/
 - debugging memory issues https://clickhouse.com/docs/en/guides/developer/debugging-memory-issues
-
+- варіанти для "multiple primary index"(частина статті в якій розповідається про projection, mv та іншу таблицю) https://clickhouse.com/docs/en/optimize/sparse-primary-indexes#options-for-creating-additional-primary-indexes
 
 #### projections
 
