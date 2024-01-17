@@ -10,6 +10,7 @@ MAIN => [[Main]] <=
 ---
 
 - queries [[Clickhouse Queries]]
+- materialized views [[00 Clickhouse Materialized views]]
 
 ---
 
