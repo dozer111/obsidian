@@ -28,5 +28,5 @@ Materialized View - одна з технік для пришвидшення з�
 
 ```sql
 -- очистити MV
-Alter TABLE partitionNam DELETE WHERE 1 == 1
+Alter TABLE partitionName DELETE WHERE 1 == 1
 ```
