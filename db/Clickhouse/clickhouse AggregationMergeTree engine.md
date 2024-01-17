@@ -51,10 +51,17 @@ FROM spin_dates
 WHERE  
     BrandID = 1
 GROUP BY PlayerID  
-HAVING minMerge(MinCreatedAtState) BETWEEN '%s' and '%s'
+HAVING minMerge(MinCreatedAtState) BETWEEN '2023-01-01' and '2024-01-01'
 ```
 
 
-
+## Додаткові статті про state:
 
 -  ClickHouse AggregateFunctions and AggregateState https://medium.com/@f1yegor/clickhouse-aggregatefunctions-and-aggregatestate-e3fd46b7be74
+- Использование AggregatingMergeTree в Clickhouse https://highload.today/ispolzovanie-aggregatingmergetree-v-clickhouse/
+
+
+## Додатково статті про AggregationgMergeTree
+
+- AggregationgMergeTree https://kb.altinity.com/engines/mergetree-table-engine-family/aggregatingmergetree/
+- 

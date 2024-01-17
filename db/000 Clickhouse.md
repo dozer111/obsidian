@@ -25,6 +25,7 @@ MAIN => [[Main]] <=
 - debugging memory issues https://clickhouse.com/docs/en/guides/developer/debugging-memory-issues
 - варіанти для "multiple primary index"(частина статті в якій розповідається про projection, mv та іншу таблицю) https://clickhouse.com/docs/en/optimize/sparse-primary-indexes#options-for-creating-additional-primary-indexes
 - how much is too much? https://kb.altinity.com/altinity-kb-schema-design/how-much-is-too-much/
+-  Наш опыт внедрения ClickHouse — аналитической CУБД https://dou.ua/lenta/articles/experience-with-clickhouse/
 
 #### projections
 
